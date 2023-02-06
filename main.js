@@ -8,7 +8,7 @@ let aktualniRok = 2023
 let vek = aktualniRok - rokNarozeni
 
 let vystup = document.querySelector ('.vystup');
-vystup.innerHTML = jmeno + prijmeni + vek;
+vystup.innerHTML = jmeno + " " + prijmeni + " " + vek;
 
 //dú část 2 
 let oblibenaBarva = String(prompt("Jaká je Tvá oblíbená barva? Prosím napiš v AJ."));
